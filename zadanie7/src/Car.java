@@ -3,4 +3,10 @@ public class Car extends Vehicle {
     public int getNumberOfSeats() {
         return numberOfSeats;
     }
+    public void start() {
+        System.out.println("Car1 started");
+    }
+    public void stop(){
+        System.out.println("Car1 stopped");
+    }
 }
