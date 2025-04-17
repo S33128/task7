@@ -4,10 +4,6 @@ public class Animal {
     public String sleep(){
         return "Sleep";
     }
-    public String makeNoise(){
-        return makeNoise();
-    }
-    public String roam(){
-        return "Roam";
-    }
+    public void makeNoise(){}
+    public void roam(){}
 }
