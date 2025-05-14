@@ -14,6 +14,11 @@ public class Main {
         cat.makeNoise();
         Wolf wolf = new Wolf();
         wolf.makeNoise();
+        lion.roam();
+        cat.roam();
+        dog.roam();
+        wolf.roam();
+
 
     }
 }
