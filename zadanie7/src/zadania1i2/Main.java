@@ -1,5 +1,6 @@
 package zadania1i2;
 import zadania3i4.Animal;
+import zadania3i4.Dog;
 import zadania3i4.Lion;
 public class Main {
     public static void main(String[] args) {
@@ -8,6 +9,8 @@ public class Main {
         car1.stop();
         Lion lion = new Lion();
         lion.makeNoise();
+        Dog dog = new Dog();
+        dog.makeNoise();
 
     }
 }
