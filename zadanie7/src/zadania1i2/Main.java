@@ -1,7 +1,6 @@
 package zadania1i2;
-import zadania3i4.Animal;
-import zadania3i4.Dog;
-import zadania3i4.Lion;
+import zadania3i4.*;
+
 public class Main {
     public static void main(String[] args) {
         Car car1 = new Car();
@@ -11,6 +10,10 @@ public class Main {
         lion.makeNoise();
         Dog dog = new Dog();
         dog.makeNoise();
+        Cat cat = new Cat();
+        cat.makeNoise();
+        Wolf wolf = new Wolf();
+        wolf.makeNoise();
 
     }
 }
